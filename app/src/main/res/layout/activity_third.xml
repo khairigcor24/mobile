@@ -36,7 +36,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/inputNotujuan"
+        android:id="@+id/inputNoTujuan"
         android:layout_width="260dp"
         android:layout_height="46dp"
         android:ems="10"
