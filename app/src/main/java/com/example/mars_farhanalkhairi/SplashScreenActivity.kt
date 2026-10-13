@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.example.mars_farhanalkhairi.pertemuan6.BaseActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -22,7 +23,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
             // Alur percabangan navigasi
             val intent = if (isLogin) {
-                Intent(this@SplashScreenActivity, MainActivity::class.java)
+                Intent(this@SplashScreenActivity, BaseActivity::class.java)
             } else {
                 Intent(this@SplashScreenActivity, AuthActivity::class.java)
             }

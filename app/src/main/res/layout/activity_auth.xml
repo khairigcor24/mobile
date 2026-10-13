@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:padding="24dp"
+    android:backgroundTint="#3b8cb6"
     tools:context=".AuthActivity">
 
 
@@ -63,7 +64,9 @@
         android:layout_height="48dp"
         android:text="login"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#56a1ec"
+        app:backgroundTint="#5eb5e4"
+        android:textSize="17dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -77,7 +80,9 @@
         android:layout_height="36dp"
         android:text="Silahkan Loginn..."
         android:textSize="26dp"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

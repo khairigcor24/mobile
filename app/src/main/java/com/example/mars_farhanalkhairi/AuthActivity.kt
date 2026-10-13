@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mars_farhanalkhairi.databinding.ActivityAuthBinding
+import com.example.mars_farhanalkhairi.pertemuan6.BaseActivity
 
 class AuthActivity : AppCompatActivity() {
 
@@ -39,8 +40,8 @@ class AuthActivity : AppCompatActivity() {
                 editor.putString("username", username)
                 editor.apply()
 
-                // Intent ke MainActivity dan panggil finish()
-                val intent = Intent(this, MainActivity::class.java)
+                // Intent ke BaseActivity dan panggil finish()
+                val intent = Intent(this, BaseActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {

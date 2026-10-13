@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.mars_farhanalkhairi.databinding.ActivityMainBinding
 import com.example.mars_farhanalkhairi.pertemuan4.FourthActivity
 import com.example.mars_farhanalkhairi.pertemuan5.FifthActivity
+import com.example.mars_farhanalkhairi.pertemuan6.SixthActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,6 +44,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnToFifth.setOnClickListener {
             val intent = Intent(this, FifthActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnToSixth.setOnClickListener {
+            val intent = Intent(this, SixthActivity::class.java)
             startActivity(intent)
         }
 
