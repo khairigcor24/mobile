@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.mars_farhanalkhairi.HomeFragment
 import com.example.mars_farhanalkhairi.Message.MessageFragment
 import com.example.mars_farhanalkhairi.More.MoreFragment
 import com.example.mars_farhanalkhairi.R

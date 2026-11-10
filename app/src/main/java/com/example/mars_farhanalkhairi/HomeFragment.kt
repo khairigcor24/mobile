@@ -1,4 +1,4 @@
-package com.example.mars_farhanalkhairi.pertemuan6
+package com.example.mars_farhanalkhairi
 
 import android.content.Context
 import android.content.Intent
@@ -9,12 +9,13 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.mars_farhanalkhairi.AuthActivity
 import com.example.mars_farhanalkhairi.P2.SecondActivity
 import com.example.mars_farhanalkhairi.databinding.FragmentHomeBinding
 import com.example.mars_farhanalkhairi.pertemuan3.ThirdActivity
 import com.example.mars_farhanalkhairi.pertemuan4.FourthActivity
 import com.example.mars_farhanalkhairi.pertemuan5.FifthActivity
+import com.example.mars_farhanalkhairi.pertemuan6.SixthActivity
+import com.example.mars_farhanalkhairi.pertemuan9.TenthActivity
 
 class HomeFragment : Fragment() {
 
@@ -57,6 +58,10 @@ class HomeFragment : Fragment() {
 
         binding.btnP6.setOnClickListener {
             startActivity(Intent(requireContext(), SixthActivity::class.java))
+        }
+
+        binding.btntoTenth.setOnClickListener {
+            startActivity(Intent(requireContext(), TenthActivity::class.java))
         }
 
         binding.btnLogout.setOnClickListener {
