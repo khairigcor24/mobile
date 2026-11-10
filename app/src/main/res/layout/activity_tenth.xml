@@ -87,7 +87,6 @@
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Terbaru"
-            app:chipBackgroundColor=""
             app:chipStrokeColor="#5eb5e4" />
 
         <com.google.android.material.chip.Chip

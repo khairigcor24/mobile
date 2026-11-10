@@ -16,6 +16,7 @@ import com.example.mars_farhanalkhairi.pertemuan4.FourthActivity
 import com.example.mars_farhanalkhairi.pertemuan5.FifthActivity
 import com.example.mars_farhanalkhairi.pertemuan6.SixthActivity
 import com.example.mars_farhanalkhairi.pertemuan9.TenthActivity
+import com.example.mars_farhanalkhairi.pertemuan_11.ElevenActivity
 
 class HomeFragment : Fragment() {
 
@@ -62,6 +63,10 @@ class HomeFragment : Fragment() {
 
         binding.btntoTenth.setOnClickListener {
             startActivity(Intent(requireContext(), TenthActivity::class.java))
+        }
+
+        binding.btntoEleven.setOnClickListener {
+            startActivity(Intent(requireContext(), ElevenActivity::class.java))
         }
 
         binding.btnLogout.setOnClickListener {
